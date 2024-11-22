@@ -87,7 +87,10 @@ namespace ECommerceAPI.Controllers
                 _dbContext.SaveChanges();
                 return Ok();
             }
-
+        public void Getdata()
+        {
+            //To do list;
+        }
         }
     }
 
